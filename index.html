@@ -3,152 +3,561 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Saleem and Company Sahiwal | LONGi Solar</title>
-<meta name="description" content="Saleem and Company, Authorized LONGi Flagship Store in Sahiwal. Solar panels and solar solutions for residential, commercial and industrial needs.">
+<title>LONGi Solar Sahiwal | Solar Panels & Solutions</title>
+
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Arial,Helvetica,sans-serif;color:#151515;background:#fff;line-height:1.6}
-a{text-decoration:none;color:inherit}
-.top{background:#151515;color:#fff;text-align:center;padding:9px 15px;font-size:14px}
-header{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid #eee}
-.nav{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:16px 20px}
-.logo{font-size:30px;font-weight:900;letter-spacing:2px;color:#df2027}
-.logo span{display:block;color:#222;font-size:11px;letter-spacing:1px;margin-top:-7px}
-nav{display:flex;gap:26px;font-weight:700;font-size:14px}
-nav a:hover{color:#df2027}
-.hero{min-height:620px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(0,0,0,.82),rgba(0,0,0,.42)),url('shop.jpg') center/cover}
-.hero-inner{max-width:1180px;width:100%;margin:auto;padding:70px 20px;color:#fff}
-.badge{display:inline-block;background:#df2027;padding:8px 14px;font-size:13px;font-weight:800;border-radius:3px;margin-bottom:18px}
-h1{font-size:clamp(40px,6vw,72px);line-height:1.02;max-width:800px}
-.hero p{font-size:20px;max-width:680px;margin:20px 0 28px;color:#eee}
-.btn{display:inline-block;padding:13px 21px;border-radius:4px;font-weight:800;margin-right:8px;margin-bottom:8px}
-.red{background:#df2027;color:#fff}
-.white{background:#fff;color:#111}
-section{padding:75px 20px}
-.wrap{max-width:1180px;margin:auto}
-.eyebrow{color:#df2027;font-weight:900;text-transform:uppercase;letter-spacing:1.5px;font-size:13px}
-h2{font-size:38px;line-height:1.15;margin:8px 0 15px}
-.lead{max-width:720px;color:#666;font-size:17px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:35px}
-.card{border:1px solid #e9e9e9;border-radius:8px;padding:28px;background:#fff;box-shadow:0 8px 25px rgba(0,0,0,.05)}
-.card h3{margin:10px 0 8px;font-size:21px}
-.card p{color:#666}
-.icon{font-size:30px;color:#df2027;font-weight:900}
-.dark{background:#171717;color:#fff}
-.dark .lead,.dark .card p{color:#c9c9c9}
-.dark .card{background:#222;border-color:#333}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:35px}
-.stat{padding:25px;text-align:center;border:1px solid #333;border-radius:7px}
-.stat strong{display:block;font-size:28px;color:#df2027}
-.contact{display:grid;grid-template-columns:1fr 1fr;gap:35px;margin-top:35px}
-.contact-box{background:#f7f7f7;padding:30px;border-radius:8px}
-.contact-row{padding:14px 0;border-bottom:1px solid #ddd}
-.contact-row:last-child{border-bottom:0}
-.contact-row strong{display:block;margin-bottom:3px}
-footer{background:#101010;color:#bbb;text-align:center;padding:28px 20px;font-size:14px}
-.mobile-btn{display:none;position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;padding:13px 17px;border-radius:50px;font-weight:800;z-index:30;box-shadow:0 6px 20px rgba(0,0,0,.25)}
-@media(max-width:800px){
- nav{display:none}
- .nav{padding:13px 16px}
- .hero{min-height:600px}
- .hero-inner{padding:55px 18px}
- .hero p{font-size:17px}
- section{padding:55px 18px}
- .grid,.contact{grid-template-columns:1fr}
- .stats{grid-template-columns:repeat(2,1fr)}
- h2{font-size:31px}
- .mobile-btn{display:block}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background: #071b2b;
+    color: white;
+    padding: 18px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #19b5fe;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #19b5fe;
+}
+
+.hero {
+    min-height: 560px;
+    display: flex;
+    align-items: center;
+    padding: 70px 6%;
+    background:
+    linear-gradient(rgba(3,18,30,.78), rgba(3,18,30,.78)),
+    url("https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 720px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 18px;
+}
+
+.hero h1 span {
+    color: #19b5fe;
+}
+
+.hero p {
+    font-size: 19px;
+    margin-bottom: 28px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 23px;
+    background: #19b5fe;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #0789c9;
+}
+
+.btn.green {
+    background: #16a34a;
+}
+
+section {
+    padding: 70px 6%;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+    color: #071b2b;
+}
+
+.section-title p {
+    color: #666;
+    margin-top: 8px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 22px;
+}
+
+.card h3 {
+    color: #071b2b;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: #0789c9;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.features {
+    background: #071b2b;
+    color: white;
+}
+
+.features .section-title h2 {
+    color: white;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.feature {
+    padding: 28px;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 10px;
+}
+
+.feature h3 {
+    color: #19b5fe;
+    margin-bottom: 10px;
+}
+
+.about {
+    background: white;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.systems {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.system {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,.07);
+}
+
+.system h3 {
+    color: #071b2b;
+    font-size: 24px;
+}
+
+.contact {
+    background: #eef5f9;
+}
+
+.contact-box {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,.08);
+}
+
+.contact-box p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+footer {
+    background: #071b2b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #16a34a;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    z-index: 2000;
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        font-size: 37px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 50px 5%;
+    }
 }
 </style>
 </head>
+
 <body>
-<div class="top">Authorized LONGi Flagship Store | Sahiwal</div>
 
 <header>
-<div class="nav">
-  <a href="#" class="logo">LONGi<span>SALEEM AND COMPANY</span></a>
-  <nav>
-    <a href="#products">Products</a>
-    <a href="#about">About</a>
-    <a href="#solutions">Solutions</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</div>
+    <div class="logo">LONGi <span>Solar Sahiwal</span></div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#systems">Systems</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<main>
-<section class="hero">
-<div class="hero-inner">
-  <div class="badge">AUTHORIZED FLAGSHIP STORE</div>
-  <h1>Power Your Future With LONGi Solar</h1>
-  <p>Saleem and Company, Sahiwal, providing genuine LONGi solar panels and practical solar solutions for homes, businesses and industry.</p>
-  <a class="btn red" href="tel:03346018668">Call 0334 6018668</a>
-  <a class="btn white" href="https://wa.me/923346018668?text=Assalam%20o%20Alaikum%2C%20I%20want%20information%20about%20LONGi%20solar%20panels." target="_blank">WhatsApp Us</a>
-</div>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Power Your Future With <span>LONGi Solar</span></h1>
+        <p>
+            LONGi Hi MO X10 645W Solar Panels and complete solar solutions
+            available in Sahiwal.
+        </p>
+
+        <a href="#products" class="btn">View Products</a>
+        <a href="https://wa.me/923346018668" class="btn green">WhatsApp Us</a>
+    </div>
 </section>
 
 <section id="products">
-<div class="wrap">
-  <div class="eyebrow">Our Products</div>
-  <h2>LONGi Solar Solutions</h2>
-  <p class="lead">Choose the right solar equipment for your power requirements, with guidance based on system size, load and installation needs.</p>
-  <div class="grid">
-    <div class="card"><div class="icon">01</div><h3>LONGi Solar Panels</h3><p>High efficiency LONGi photovoltaic panels for residential, commercial and industrial systems.</p></div>
-    <div class="card"><div class="icon">02</div><h3>Solar Inverters</h3><p>Reliable inverter options for converting solar power into usable electricity for your system.</p></div>
-    <div class="card"><div class="icon">03</div><h3>Complete Solar Systems</h3><p>System planning and equipment selection based on your load and required solar capacity.</p></div>
-  </div>
-</div>
-</section>
 
-<section id="solutions" class="dark">
-<div class="wrap">
-  <div class="eyebrow">Why Choose Us</div>
-  <h2>Solar for Homes, Businesses and Industry</h2>
-  <p class="lead">We help customers choose suitable solar equipment instead of simply selling a panel. Tell us your load and we can guide you toward the right system size.</p>
-  <div class="stats">
-    <div class="stat"><strong>LONGi</strong>Solar Panels</div>
-    <div class="stat"><strong>Home</strong>Solar Solutions</div>
-    <div class="stat"><strong>Commercial</strong>Systems</div>
-    <div class="stat"><strong>Industrial</strong>Solutions</div>
-  </div>
-</div>
-</section>
-
-<section id="about">
-<div class="wrap">
-  <div class="eyebrow">About Us</div>
-  <h2>Saleem and Company</h2>
-  <p class="lead">We are based in Furniture Bazar, Sahiwal, serving customers looking for LONGi solar panels and solar power solutions. Our focus is genuine products, suitable system selection and clear customer dealing.</p>
-</div>
-</section>
-
-<section id="contact">
-<div class="wrap">
-  <div class="eyebrow">Visit or Contact Us</div>
-  <h2>Let's Discuss Your Solar Requirement</h2>
-  <div class="contact">
-    <div class="contact-box">
-      <div class="contact-row"><strong>Shop</strong>Saleem and Company</div>
-      <div class="contact-row"><strong>Address</strong>Furniture Bazar, Sahiwal</div>
-      <div class="contact-row"><strong>Phone</strong><a href="tel:03346018668">0334 6018668</a></div>
-      <div class="contact-row"><strong>WhatsApp</strong><a href="https://wa.me/923346018668" target="_blank">Chat on WhatsApp</a></div>
+    <div class="section-title">
+        <h2>Our Products</h2>
+        <p>Quality solar products for homes, shops and businesses</p>
     </div>
-    <div class="contact-box">
-      <h3>Get a Solar Quote</h3>
-      <p style="margin:10px 0 20px;color:#666">Send us your monthly electricity bill or tell us your load and we can discuss a suitable solar setup.</p>
-      <a class="btn red" href="https://wa.me/923346018668?text=Assalam%20o%20Alaikum%2C%20I%20need%20a%20solar%20system%20quote." target="_blank">Request Quote on WhatsApp</a>
-      <a class="btn" style="border:1px solid #ddd" href="https://www.google.com/maps/search/?api=1&query=Furniture+Bazar+Sahiwal" target="_blank">Open in Google Maps</a>
-    </div>
-  </div>
-</div>
-</section>
-</main>
 
-<a class="mobile-btn" href="https://wa.me/923346018668" target="_blank">WhatsApp</a>
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80">
+
+            <div class="card-content">
+                <h3>LONGi Hi MO X10 645W</h3>
+
+                <p>
+                    High power LONGi solar panel for residential,
+                    commercial and industrial solar systems.
+                </p>
+
+                <!-- PRICE CHANGE HERE -->
+                <div class="price">Rs. YOUR PRICE</div>
+
+                <a href="https://wa.me/923346018668?text=I%20want%20to%20know%20the%20price%20of%20LONGi%20Hi%20MO%20X10%20645W"
+                   class="btn green">
+                   Ask on WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1622260614153-03223fb72052?auto=format&fit=crop&w=900&q=80">
+
+            <div class="card-content">
+                <h3>Solar Inverters</h3>
+                <p>
+                    Solar inverter solutions for different residential
+                    and commercial requirements.
+                </p>
+
+                <div class="price">Get Latest Price</div>
+
+                <a href="https://wa.me/923346018668?text=I%20want%20information%20about%20solar%20inverters"
+                   class="btn green">
+                   Ask on WhatsApp
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?auto=format&fit=crop&w=900&q=80">
+
+            <div class="card-content">
+                <h3>Hybrid Solar Systems</h3>
+                <p>
+                    Solar solutions designed to combine solar power
+                    with battery and grid support.
+                </p>
+
+                <div class="price">Get Quote</div>
+
+                <a href="https://wa.me/923346018668?text=I%20want%20a%20quote%20for%20a%20hybrid%20solar%20system"
+                   class="btn green">
+                   Get Quote
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=900&q=80">
+
+            <div class="card-content">
+                <h3>Complete Solar Solutions</h3>
+                <p>
+                    Complete solar system solutions for homes,
+                    shops, offices and businesses.
+                </p>
+
+                <div class="price">Contact For Price</div>
+
+                <a href="https://wa.me/923346018668?text=I%20need%20a%20complete%20solar%20system"
+                   class="btn green">
+                   Contact Us
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="features">
+
+    <div class="section-title">
+        <h2>Why Choose Us?</h2>
+        <p>Solar solutions with practical guidance</p>
+    </div>
+
+    <div class="feature-grid">
+
+        <div class="feature">
+            <h3>LONGi Solar</h3>
+            <p>
+                LONGi solar panel solutions for customers looking
+                for high power output and reliable solar technology.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Competitive Prices</h3>
+            <p>
+                Get current market pricing according to product,
+                quantity and system requirements.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Technical Guidance</h3>
+            <p>
+                Get guidance for selecting panels, inverter capacity
+                and suitable solar system size.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Customer Support</h3>
+            <p>
+                Contact us through WhatsApp or phone for product
+                information and quotations.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="systems">
+
+    <div class="section-title">
+        <h2>Solar System Solutions</h2>
+        <p>Choose a system according to your electricity requirements</p>
+    </div>
+
+    <div class="systems">
+
+        <div class="system">
+            <h3>5 kW</h3>
+            <p>Suitable for small homes and shops.</p>
+            <br>
+            <a href="https://wa.me/923346018668?text=I%20want%20a%205kW%20solar%20system"
+               class="btn green">Get Quote</a>
+        </div>
+
+        <div class="system">
+            <h3>10 kW</h3>
+            <p>Suitable for larger residential requirements.</p>
+            <br>
+            <a href="https://wa.me/923346018668?text=I%20want%20a%2010kW%20solar%20system"
+               class="btn green">Get Quote</a>
+        </div>
+
+        <div class="system">
+            <h3>15 kW</h3>
+            <p>For homes, offices and commercial use.</p>
+            <br>
+            <a href="https://wa.me/923346018668?text=I%20want%20a%2015kW%20solar%20system"
+               class="btn green">Get Quote</a>
+        </div>
+
+        <div class="system">
+            <h3>20 kW</h3>
+            <p>Commercial solar power solution.</p>
+            <br>
+            <a href="https://wa.me/923346018668?text=I%20want%20a%2020kW%20solar%20system"
+               class="btn green">Get Quote</a>
+        </div>
+
+        <div class="system">
+            <h3>25 kW+</h3>
+            <p>Large commercial and industrial requirements.</p>
+            <br>
+            <a href="https://wa.me/923346018668?text=I%20need%20a%2025kW%20or%20larger%20solar%20system"
+               class="btn green">Get Quote</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+
+    <div class="section-title">
+        <h2>About Us</h2>
+    </div>
+
+    <div class="about-content">
+        <p>
+            <strong>LONGi Solar Sahiwal</strong> provides solar panels,
+            inverters and complete solar solutions for residential,
+            commercial and business customers.
+        </p>
+
+        <br>
+
+        <p>
+            Our focus is on helping customers choose the right solar
+            products according to their electricity requirements and budget.
+        </p>
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+        <h2>Contact Us</h2>
+        <p>For current prices, product information and quotations</p>
+    </div>
+
+    <div class="contact-box">
+
+        <p><strong>LONGi Solar Sahiwal</strong></p>
+
+        <p>Furniture Bazar, Sahiwal</p>
+
+        <p>
+            Phone:
+            <a href="tel:+923346018668">
+                0334 6018668
+            </a>
+        </p>
+
+        <br>
+
+        <a href="https://wa.me/923346018668"
+           class="btn green">
+           Chat on WhatsApp
+        </a>
+
+    </div>
+
+</section>
 
 <footer>
-Saleem and Company, Authorized LONGi Flagship Store, Furniture Bazar, Sahiwal
+    <p>© 2026 LONGi Solar Sahiwal. All Rights Reserved.</p>
 </footer>
+
+<a class="whatsapp"
+   href="https://wa.me/923346018668">
+   WhatsApp
+</a>
+
 </body>
 </html>
